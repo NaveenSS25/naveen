@@ -7,4 +7,6 @@ cgst=total*(2.5/100)
 print("SGST: ",sgst)
 print("CGST: ",cgst)
 TWGST=total+sgst+cgst
-print("TWGST: ",TWGST)
+print("Total With GST: ",TWGST)
+from num2words import num2words
+print(num2words(TWGST to ='currency'))
